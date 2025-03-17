@@ -3,18 +3,21 @@
 
  Source Server         : localhost
  Source Server Type    : MySQL
- Source Server Version : 110206 (11.2.6-MariaDB)
+ Source Server Version : 8.0.32
  Source Host           : localhost:3306
  Source Schema         : eladmin
 
  Target Server Type    : MySQL
- Target Server Version : 110206 (11.2.6-MariaDB)
+ Target Server Version : 8.0.32
  File Encoding         : 65001
 
  Date: 15/01/2025 18:20:01
 */
 
 SET NAMES utf8mb4;
+CREATE DATABASE IF NOT EXISTS eladmin
+    DEFAULT CHARACTER SET utf8mb4
+    DEFAULT COLLATE utf8mb4_unicode_ci;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
